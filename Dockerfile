@@ -8,5 +8,5 @@ RUN npm install
 
 COPY . ./
 
-CMD ["npm","start"]
+CMD cd backend && npm start
 
